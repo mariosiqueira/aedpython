@@ -1,0 +1,25 @@
+from aula07102019.ArvoreBinariaBusca import ArvoreBinariaBusca
+
+arvore = ArvoreBinariaBusca()
+arvore.inserir(50, arvore.raiz)
+arvore.inserir(45, arvore.raiz)
+arvore.inserir(51, arvore.raiz)
+arvore.inserir(25, arvore.raiz)
+arvore.inserir(99, arvore.raiz)
+arvore.inserir(75, arvore.raiz)
+arvore.inserir(80, arvore.raiz)
+arvore.inserir(20, arvore.raiz)
+# arvore.inserir(30, arvore.raiz)
+# arvore.inserir(24, arvore.raiz)
+print('---Pre-Ordem:')
+arvore.imprimir('pre', arvore.raiz)
+print('\n---Ordem:')
+arvore.imprimir('ord', arvore.raiz)
+print('\n---Pos-Ordem:')
+arvore.imprimir('pos', arvore.raiz)
+
+print('\n---Remocoes:')
+arvore.remover(25)
+
+print('---Pre-Ordem:')
+arvore.imprimir('pre', arvore.raiz)

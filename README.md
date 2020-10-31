@@ -1,0 +1,1 @@
+Este repositório contém códigos da disciplina de Algoritmos e Estruturas de Dados, implementados utilizando a linguagem Python, do Curso de Licenciatura em Computação do IFPE - Campus Afogados da Ingazeira
